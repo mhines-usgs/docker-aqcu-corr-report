@@ -8,7 +8,7 @@
       file: ./config/certificates/tomcat/tomcat-wildcard-dev.key
 
   services:
-    aqcu-dv-corr-service:
+    aqcu-corr-service:
       build: .
       image: aqcu-corr-report-service
       ports:
